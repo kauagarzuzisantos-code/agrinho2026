@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho Sustentável: O Futuro Verde do Agro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-leaf"></i> Agro<span>Sustentável</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#agrinho">O Agrinho</a></li>
+                <li><a href="#carbono">Carbono no Agro</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>O Agronegócio e o Sequestro de Carbono</h1>
+            <p>Descubra como o projeto Agrinho incentiva a sustentabilidade, transformando o campo no maior aliado contra o aquecimento global.</p>
+            <a href="#carbono" class="btn">Saber Mais</a>
+        </div>
+    </section>
+
+    <section id="agrinho" class="container">
+        <h2><i class="fa-solid fa-graduation-cap"></i> O Projeto Agrinho</h2>
+        <div class="grid-2">
+            <div>
+                <p>O <strong>Agrinho</strong> é um programa educativo de grande impacto que leva a realidade do campo para as escolas. Ele desperta nos estudantes a consciência sobre a importância do agronegócio de forma ética, inovadora e sustentável.</p>
+                <p>Mais do que ensinar sobre a produção de alimentos, o projeto desafia a nova geração a pensar em soluções para a preservação ambiental e o desenvolvimento social.</p>
+            </div>
+            <div class="highlight-box">
+                <h3><i class="fa-solid fa-star"></i> Pilares do Agrinho</h3>
+                <ul>
+                    <li>Educação Ambiental</li>
+                    <li>Cidadania e Ética</li>
+                    <li>Inovação no Campo</li>
+                    <li>Sustentabilidade Prática</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="carbono" class="bg-light">
+        <div class="container">
+            <h2><i class="fa-solid fa-seedling"></i> Carbono Zero: O Agro que Protege</h2>
+            <p class="subtitle">Você sabia que a terra bem cuidada retém a poluição que iria para a atmosfera?</p>
+            
+            <div class="grid-3">
+                <div class="card">
+                    <i class="fa-solid fa-cloud-arrow-down icon-card"></i>
+                    <h3>Sequestro de Carbono</h3>
+                    <p>Através da fotossíntese, as plantas retiram o $CO_2$ da atmosfera e o fixam no solo em forma de matéria orgânica.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-tractor icon-card"></i>
+                    <h3>Práticas Sustentáveis</h3>
+                    <p>O plantio direto, a rotação de culturas e a integração lavoura-pecuária-floresta evitam a liberação de gases poluentes.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-coins icon-card"></i>
+                    <h3>Créditos de Carbono</h3>
+                    <p>Produtores rurais que preservam o meio ambiente podem vender créditos de carbono para empresas que precisam compensar suas emissões.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="container">
+        <h2><i class="fa-solid fa-envelope"></i> Faça Parte Desse Futuro</h2>
+        <p class="text-center">Tem alguma dúvida ou quer compartilhar um projeto do Agrinho da sua escola? Fale conosco!</p>
+        
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" required placeholder="Digite seu nome completo">
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required placeholder="Ex: seuemail@escola.com">
+            </div>
+            <div class="form-group">
+                <label for="message">Sua Mensagem / Ideia:</label>
+                <textarea id="message" rows="5" required placeholder="Escreva aqui a sua ideia para salvar o planeta com o agro..."></textarea>
+            </div>
+            <button type="submit" class="btn">Enviar Mensagem</button>
+        </form>
+        <div id="formFeedback" class="hidden"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Projeto Agrinho & Sustentabilidade. Desenvolvido para fins educativos.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
